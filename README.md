@@ -10,4 +10,6 @@ Data of supermarket is provided to predict which type of person mainly visit sup
 
 1st we use K-Means algorithm to distinguish type of person [‘careless’, ‘Sensible’, ‘Careful’, ‘Target’, ‘Standard’]. Here, we use K-means++ to find number of cluster. From k-Means we conclude no. of cluster = 5. 
 
-2nd we use HC agglomerative algorithm predicted same value as K-Means. From dendrogram we find optimal number of cluster.
+2nd we use HC agglomerative algorithm predicted same value as K-Means. From dendrogram we find optimal number of cluster. 
+
+Both results are visualized using matplotlib.
